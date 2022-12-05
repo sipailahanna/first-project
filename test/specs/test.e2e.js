@@ -21,7 +21,7 @@ describe('Test webdriverio site', () => {
     })
 
     it('open docs page and verify all items in configuration tab', async () => {
-        const expectedSubItemNames = ["Driver Binaries", "Capabilities", "Babel Setup", "TypeScript Setup", "Proxy Setup"];
+        const expectedSubItemNames = ['Driver Binaries', 'Capabilities', 'Babel Setup', 'TypeScript Setup', 'Proxy Setup'];
         const configuration = 'configuration';
 
         await DocsPage.open();
